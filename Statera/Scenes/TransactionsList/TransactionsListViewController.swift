@@ -9,15 +9,21 @@ import UIKit
 
 class TransactionsListViewController: UITableViewController {
   var presenter: TransactionsListPresentable?
+  
+  private var transactions: [Transaction] = []
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    
+    presenter?.getTransactions()
   }
 }
 
 extension TransactionsListViewController: TransactionsListPresenting {
   
-  func display(transactions: [Any]) {
+  func display(transactions: [Transaction]) {
+    self.transactions = transactions
+        
+    tableView.reloadData()
   }
 }

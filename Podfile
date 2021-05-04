@@ -6,6 +6,7 @@ target 'Statera' do
   use_frameworks!
 
   # Pods for Statera
+  pod 'Moya/RxSwift', '~> 14.0'
 
   target 'StateraTests' do
     inherit! :search_paths

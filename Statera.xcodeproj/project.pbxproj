@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,11 @@
 		8F68C10C26414EC600DC970D /* UIView+Alignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C10B26414EC600DC970D /* UIView+Alignments.swift */; };
 		8F68C11626414F7F00DC970D /* TransactionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C11526414F7F00DC970D /* TransactionsListViewController.swift */; };
 		8F68C11E26414FB700DC970D /* TransactionsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C11D26414FB700DC970D /* TransactionsListPresenter.swift */; };
+		8F68C1342641547400DC970D /* Statera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C1332641547400DC970D /* Statera.swift */; };
+		8F68C1392641549B00DC970D /* Statera+Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C1382641549B00DC970D /* Statera+Api.swift */; };
+		8F68C13E2641562C00DC970D /* Statera+ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C13D2641562C00DC970D /* Statera+ApiService.swift */; };
+		8F68C1472641575300DC970D /* DataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C1462641575300DC970D /* DataFormatter.swift */; };
+		8F68C1502641581000DC970D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C14F2641581000DC970D /* Transaction.swift */; };
 		A2B16F913FA7EA102738B85A /* Pods_StateraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F928CC286F9DCEA94714FF79 /* Pods_StateraTests.framework */; };
 		C562E84A8A537DA5F4D640C5 /* Pods_Statera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */; };
 		ED3606ADC9D5EF35CB39C660 /* Pods_Statera_StateraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */; };
@@ -55,6 +60,11 @@
 		8F68C10B26414EC600DC970D /* UIView+Alignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Alignments.swift"; sourceTree = "<group>"; };
 		8F68C11526414F7F00DC970D /* TransactionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewController.swift; sourceTree = "<group>"; };
 		8F68C11D26414FB700DC970D /* TransactionsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListPresenter.swift; sourceTree = "<group>"; };
+		8F68C1332641547400DC970D /* Statera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statera.swift; sourceTree = "<group>"; };
+		8F68C1382641549B00DC970D /* Statera+Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Statera+Api.swift"; sourceTree = "<group>"; };
+		8F68C13D2641562C00DC970D /* Statera+ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Statera+ApiService.swift"; sourceTree = "<group>"; };
+		8F68C1462641575300DC970D /* DataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFormatter.swift; sourceTree = "<group>"; };
+		8F68C14F2641581000DC970D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateraTests.debug.xcconfig"; path = "Target Support Files/Pods-StateraTests/Pods-StateraTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera_StateraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +136,11 @@
 		8F68C0CD26414C0A00DC970D /* Statera */ = {
 			isa = PBXGroup;
 			children = (
+				8F68C14E2641580100DC970D /* Models */,
+				8F68C131264153F800DC970D /* Services */,
 				8F68C11326414F2200DC970D /* Scenes */,
 				8F68C10A26414E9B00DC970D /* Extensions */,
+				8F68C1452641573400DC970D /* Utils */,
 				8F68C0CE26414C0A00DC970D /* AppDelegate.swift */,
 				8F68C0D726414C0C00DC970D /* Assets.xcassets */,
 				8F68C0D926414C0C00DC970D /* LaunchScreen.storyboard */,
@@ -179,6 +192,40 @@
 			path = TransactionsList;
 			sourceTree = "<group>";
 		};
+		8F68C131264153F800DC970D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C1322641545D00DC970D /* Statera */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8F68C1322641545D00DC970D /* Statera */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C1332641547400DC970D /* Statera.swift */,
+				8F68C1382641549B00DC970D /* Statera+Api.swift */,
+				8F68C13D2641562C00DC970D /* Statera+ApiService.swift */,
+			);
+			path = Statera;
+			sourceTree = "<group>";
+		};
+		8F68C1452641573400DC970D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C1462641575300DC970D /* DataFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8F68C14E2641580100DC970D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C14F2641581000DC970D /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EAA949C616C7F3EC977A3078 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +250,7 @@
 				8F68C0C726414C0A00DC970D /* Sources */,
 				8F68C0C826414C0A00DC970D /* Frameworks */,
 				8F68C0C926414C0A00DC970D /* Resources */,
+				0B034A973B450B89FB24324A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +288,7 @@
 				8F68C0E826414C0C00DC970D /* Sources */,
 				8F68C0E926414C0C00DC970D /* Frameworks */,
 				8F68C0EA26414C0C00DC970D /* Resources */,
+				FDDF3181EF7F68B649D6C786 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -342,6 +391,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		0B034A973B450B89FB24324A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Statera/Pods-Statera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Statera/Pods-Statera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Statera/Pods-Statera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		23A6820CF6A8358170983897 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +452,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FDDF3181EF7F68B649D6C786 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -396,7 +479,12 @@
 				8F68C10C26414EC600DC970D /* UIView+Alignments.swift in Sources */,
 				8F68C0CF26414C0A00DC970D /* AppDelegate.swift in Sources */,
 				8F68C11626414F7F00DC970D /* TransactionsListViewController.swift in Sources */,
+				8F68C1342641547400DC970D /* Statera.swift in Sources */,
+				8F68C1472641575300DC970D /* DataFormatter.swift in Sources */,
 				8F68C11E26414FB700DC970D /* TransactionsListPresenter.swift in Sources */,
+				8F68C13E2641562C00DC970D /* Statera+ApiService.swift in Sources */,
+				8F68C1392641549B00DC970D /* Statera+Api.swift in Sources */,
+				8F68C1502641581000DC970D /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
