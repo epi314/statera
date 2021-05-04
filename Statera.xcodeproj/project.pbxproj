@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F68C0CF26414C0A00DC970D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0CE26414C0A00DC970D /* AppDelegate.swift */; };
+		8F68C0D126414C0A00DC970D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0D026414C0A00DC970D /* SceneDelegate.swift */; };
+		8F68C0D326414C0A00DC970D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0D226414C0A00DC970D /* ViewController.swift */; };
+		8F68C0D626414C0A00DC970D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F68C0D426414C0A00DC970D /* Main.storyboard */; };
+		8F68C0D826414C0C00DC970D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F68C0D726414C0C00DC970D /* Assets.xcassets */; };
+		8F68C0DB26414C0C00DC970D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F68C0D926414C0C00DC970D /* LaunchScreen.storyboard */; };
+		8F68C0E626414C0C00DC970D /* StateraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0E526414C0C00DC970D /* StateraTests.swift */; };
+		8F68C0F126414C0C00DC970D /* StateraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0F026414C0C00DC970D /* StateraUITests.swift */; };
+		A2B16F913FA7EA102738B85A /* Pods_StateraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F928CC286F9DCEA94714FF79 /* Pods_StateraTests.framework */; };
+		C562E84A8A537DA5F4D640C5 /* Pods_Statera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */; };
+		ED3606ADC9D5EF35CB39C660 /* Pods_Statera_StateraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F68C0E226414C0C00DC970D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F68C0C326414C0A00DC970D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F68C0CA26414C0A00DC970D;
+			remoteInfo = Statera;
+		};
+		8F68C0ED26414C0C00DC970D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F68C0C326414C0A00DC970D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F68C0CA26414C0A00DC970D;
+			remoteInfo = Statera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095804742FB2BCBE4833048D /* Pods-Statera-StateraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera-StateraUITests.release.xcconfig"; path = "Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0BE7AD66186957BB064265F6 /* Pods-Statera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera.debug.xcconfig"; path = "Target Support Files/Pods-Statera/Pods-Statera.debug.xcconfig"; sourceTree = "<group>"; };
+		4DA269B73C7A94B80B16650E /* Pods-Statera-StateraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera-StateraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F68C0CB26414C0A00DC970D /* Statera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Statera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F68C0CE26414C0A00DC970D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F68C0D026414C0A00DC970D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F68C0D226414C0A00DC970D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F68C0D526414C0A00DC970D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F68C0D726414C0C00DC970D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F68C0DA26414C0C00DC970D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F68C0DC26414C0C00DC970D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F68C0E126414C0C00DC970D /* StateraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F68C0E526414C0C00DC970D /* StateraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateraTests.swift; sourceTree = "<group>"; };
+		8F68C0E726414C0C00DC970D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F68C0EC26414C0C00DC970D /* StateraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F68C0F026414C0C00DC970D /* StateraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateraUITests.swift; sourceTree = "<group>"; };
+		8F68C0F226414C0C00DC970D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateraTests.debug.xcconfig"; path = "Target Support Files/Pods-StateraTests/Pods-StateraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera_StateraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0216C9EF2CBEA7D6768535D /* Pods-Statera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera.release.xcconfig"; path = "Target Support Files/Pods-Statera/Pods-Statera.release.xcconfig"; sourceTree = "<group>"; };
+		E3727E24F97816A58564A79C /* Pods-StateraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateraTests.release.xcconfig"; path = "Target Support Files/Pods-StateraTests/Pods-StateraTests.release.xcconfig"; sourceTree = "<group>"; };
+		F928CC286F9DCEA94714FF79 /* Pods_StateraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StateraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F68C0C826414C0A00DC970D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C562E84A8A537DA5F4D640C5 /* Pods_Statera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F68C0DE26414C0C00DC970D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B16F913FA7EA102738B85A /* Pods_StateraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F68C0E926414C0C00DC970D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3606ADC9D5EF35CB39C660 /* Pods_Statera_StateraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C8705A97579735A4F8F11E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */,
+				CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */,
+				F928CC286F9DCEA94714FF79 /* Pods_StateraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F68C0C226414C0A00DC970D = {
+			isa = PBXGroup;
+			children = (
+				8F68C0CD26414C0A00DC970D /* Statera */,
+				8F68C0E426414C0C00DC970D /* StateraTests */,
+				8F68C0EF26414C0C00DC970D /* StateraUITests */,
+				8F68C0CC26414C0A00DC970D /* Products */,
+				EAA949C616C7F3EC977A3078 /* Pods */,
+				49C8705A97579735A4F8F11E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F68C0CC26414C0A00DC970D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C0CB26414C0A00DC970D /* Statera.app */,
+				8F68C0E126414C0C00DC970D /* StateraTests.xctest */,
+				8F68C0EC26414C0C00DC970D /* StateraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F68C0CD26414C0A00DC970D /* Statera */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C0CE26414C0A00DC970D /* AppDelegate.swift */,
+				8F68C0D026414C0A00DC970D /* SceneDelegate.swift */,
+				8F68C0D226414C0A00DC970D /* ViewController.swift */,
+				8F68C0D426414C0A00DC970D /* Main.storyboard */,
+				8F68C0D726414C0C00DC970D /* Assets.xcassets */,
+				8F68C0D926414C0C00DC970D /* LaunchScreen.storyboard */,
+				8F68C0DC26414C0C00DC970D /* Info.plist */,
+			);
+			path = Statera;
+			sourceTree = "<group>";
+		};
+		8F68C0E426414C0C00DC970D /* StateraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C0E526414C0C00DC970D /* StateraTests.swift */,
+				8F68C0E726414C0C00DC970D /* Info.plist */,
+			);
+			path = StateraTests;
+			sourceTree = "<group>";
+		};
+		8F68C0EF26414C0C00DC970D /* StateraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C0F026414C0C00DC970D /* StateraUITests.swift */,
+				8F68C0F226414C0C00DC970D /* Info.plist */,
+			);
+			path = StateraUITests;
+			sourceTree = "<group>";
+		};
+		EAA949C616C7F3EC977A3078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BE7AD66186957BB064265F6 /* Pods-Statera.debug.xcconfig */,
+				D0216C9EF2CBEA7D6768535D /* Pods-Statera.release.xcconfig */,
+				4DA269B73C7A94B80B16650E /* Pods-Statera-StateraUITests.debug.xcconfig */,
+				095804742FB2BCBE4833048D /* Pods-Statera-StateraUITests.release.xcconfig */,
+				99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */,
+				E3727E24F97816A58564A79C /* Pods-StateraTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F68C0CA26414C0A00DC970D /* Statera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F68C0F526414C0C00DC970D /* Build configuration list for PBXNativeTarget "Statera" */;
+			buildPhases = (
+				57EDE2AD4E6057DA3E5A02B6 /* [CP] Check Pods Manifest.lock */,
+				8F68C0C726414C0A00DC970D /* Sources */,
+				8F68C0C826414C0A00DC970D /* Frameworks */,
+				8F68C0C926414C0A00DC970D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Statera;
+			productName = Statera;
+			productReference = 8F68C0CB26414C0A00DC970D /* Statera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F68C0E026414C0C00DC970D /* StateraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F68C0F826414C0C00DC970D /* Build configuration list for PBXNativeTarget "StateraTests" */;
+			buildPhases = (
+				23A6820CF6A8358170983897 /* [CP] Check Pods Manifest.lock */,
+				8F68C0DD26414C0C00DC970D /* Sources */,
+				8F68C0DE26414C0C00DC970D /* Frameworks */,
+				8F68C0DF26414C0C00DC970D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F68C0E326414C0C00DC970D /* PBXTargetDependency */,
+			);
+			name = StateraTests;
+			productName = StateraTests;
+			productReference = 8F68C0E126414C0C00DC970D /* StateraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F68C0EB26414C0C00DC970D /* StateraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F68C0FB26414C0C00DC970D /* Build configuration list for PBXNativeTarget "StateraUITests" */;
+			buildPhases = (
+				005909797F7E89944F3E48F0 /* [CP] Check Pods Manifest.lock */,
+				8F68C0E826414C0C00DC970D /* Sources */,
+				8F68C0E926414C0C00DC970D /* Frameworks */,
+				8F68C0EA26414C0C00DC970D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F68C0EE26414C0C00DC970D /* PBXTargetDependency */,
+			);
+			name = StateraUITests;
+			productName = StateraUITests;
+			productReference = 8F68C0EC26414C0C00DC970D /* StateraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F68C0C326414C0A00DC970D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8F68C0CA26414C0A00DC970D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8F68C0E026414C0C00DC970D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8F68C0CA26414C0A00DC970D;
+					};
+					8F68C0EB26414C0C00DC970D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8F68C0CA26414C0A00DC970D;
+					};
+				};
+			};
+			buildConfigurationList = 8F68C0C626414C0A00DC970D /* Build configuration list for PBXProject "Statera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F68C0C226414C0A00DC970D;
+			productRefGroup = 8F68C0CC26414C0A00DC970D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F68C0CA26414C0A00DC970D /* Statera */,
+				8F68C0E026414C0C00DC970D /* StateraTests */,
+				8F68C0EB26414C0C00DC970D /* StateraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F68C0C926414C0A00DC970D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F68C0DB26414C0C00DC970D /* LaunchScreen.storyboard in Resources */,
+				8F68C0D826414C0C00DC970D /* Assets.xcassets in Resources */,
+				8F68C0D626414C0A00DC970D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F68C0DF26414C0C00DC970D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F68C0EA26414C0C00DC970D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		005909797F7E89944F3E48F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Statera-StateraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23A6820CF6A8358170983897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StateraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57EDE2AD4E6057DA3E5A02B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Statera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F68C0C726414C0A00DC970D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F68C0D326414C0A00DC970D /* ViewController.swift in Sources */,
+				8F68C0CF26414C0A00DC970D /* AppDelegate.swift in Sources */,
+				8F68C0D126414C0A00DC970D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F68C0DD26414C0C00DC970D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F68C0E626414C0C00DC970D /* StateraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F68C0E826414C0C00DC970D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F68C0F126414C0C00DC970D /* StateraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F68C0E326414C0C00DC970D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F68C0CA26414C0A00DC970D /* Statera */;
+			targetProxy = 8F68C0E226414C0C00DC970D /* PBXContainerItemProxy */;
+		};
+		8F68C0EE26414C0C00DC970D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F68C0CA26414C0A00DC970D /* Statera */;
+			targetProxy = 8F68C0ED26414C0C00DC970D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F68C0D426414C0A00DC970D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F68C0D526414C0A00DC970D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F68C0D926414C0C00DC970D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F68C0DA26414C0C00DC970D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F68C0F326414C0C00DC970D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F68C0F426414C0C00DC970D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F68C0F626414C0C00DC970D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE7AD66186957BB064265F6 /* Pods-Statera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Statera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.Statera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F68C0F726414C0C00DC970D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0216C9EF2CBEA7D6768535D /* Pods-Statera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Statera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.Statera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F68C0F926414C0C00DC970D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StateraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.StateraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Statera.app/Statera";
+			};
+			name = Debug;
+		};
+		8F68C0FA26414C0C00DC970D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3727E24F97816A58564A79C /* Pods-StateraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StateraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.StateraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Statera.app/Statera";
+			};
+			name = Release;
+		};
+		8F68C0FC26414C0C00DC970D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA269B73C7A94B80B16650E /* Pods-Statera-StateraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StateraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.StateraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Statera;
+			};
+			name = Debug;
+		};
+		8F68C0FD26414C0C00DC970D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 095804742FB2BCBE4833048D /* Pods-Statera-StateraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StateraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.StateraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Statera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F68C0C626414C0A00DC970D /* Build configuration list for PBXProject "Statera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F68C0F326414C0C00DC970D /* Debug */,
+				8F68C0F426414C0C00DC970D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F68C0F526414C0C00DC970D /* Build configuration list for PBXNativeTarget "Statera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F68C0F626414C0C00DC970D /* Debug */,
+				8F68C0F726414C0C00DC970D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F68C0F826414C0C00DC970D /* Build configuration list for PBXNativeTarget "StateraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F68C0F926414C0C00DC970D /* Debug */,
+				8F68C0FA26414C0C00DC970D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F68C0FB26414C0C00DC970D /* Build configuration list for PBXNativeTarget "StateraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F68C0FC26414C0C00DC970D /* Debug */,
+				8F68C0FD26414C0C00DC970D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F68C0C326414C0A00DC970D /* Project object */;
+}
