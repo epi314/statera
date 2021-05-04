@@ -8,6 +8,7 @@
 import UIKit
 
 class TransactionDetailsViewController: UIViewController {
+  var presenter: TransactionDetailsPresentable?
   
   var transaction: Transaction? {
     didSet {
@@ -77,4 +78,8 @@ private extension TransactionDetailsViewController {
     view.addSubview(gstLabel)
     gstLabel.align(top: creditDebitLabel.bottomAnchor, lead: view.leadingAnchor, bottom: nil, trail: view.trailingAnchor, topPadding: 10, leadPadding: 20, bottomPadding: 0, trailPadding: 20)
   }
+}
+
+// MARK: - Make presenting
+extension TransactionDetailsViewController: TransactionDetailsPresenting {
 }

@@ -70,6 +70,7 @@ extension TransactionsListViewController {
   }
 }
 
+// MARK: - Make presenting
 extension TransactionsListViewController: TransactionsListPresenting {
   
   func display(transactions: [Transaction]) {

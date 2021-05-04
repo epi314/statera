@@ -25,7 +25,11 @@ extension Statera {
       plugins.append(NetworkLoggerPlugin(configuration: config))
       #endif
       
+      #if TESTING
+      provider = MoyaProvider<Statera.Api>(stubClosure: MoyaProvider.immediatelyStub, plugins: plugins)
+      #else
       provider = MoyaProvider<Statera.Api>(plugins: plugins)
+      #endif
     }
     
     func getTransactions() -> Observable<[Transaction]> {
