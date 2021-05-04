@@ -39,6 +39,12 @@ private extension TransactionsListViewController {
 extension TransactionsListViewController {
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
+    
+    let transaction = transactions[indexPath.row]
+    let detailsController = TransactionDetailsViewController()
+    detailsController.transaction = transaction
+    
+    navigationController?.pushViewController(detailsController, animated: true)
   }
 }
 
@@ -67,8 +73,10 @@ extension TransactionsListViewController {
 extension TransactionsListViewController: TransactionsListPresenting {
   
   func display(transactions: [Transaction]) {
-    self.transactions = transactions
-        
+    self.transactions = transactions.sorted {
+      $0.transactionDate > $1.transactionDate
+    }
+
     tableView.reloadData()
   }
 }
