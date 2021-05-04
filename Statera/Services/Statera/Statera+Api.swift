@@ -34,7 +34,10 @@ extension Statera.Api: TargetType {
   }
   
   var sampleData: Data {
-    Data()
+    switch self {
+    case .fetchTransactions:
+      return "[{\"id\":\"1\",\"transactionDate\":\"2021-02-02T08:11:16+13:00\",\"summary\":\"Fancy Food Market Auckland\",\"debit\":197.9,\"credit\":0}]".dataEncoded
+    }
   }
   
   var task: Task {

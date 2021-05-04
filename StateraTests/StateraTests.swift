@@ -6,28 +6,44 @@
 //
 
 import XCTest
+import RxSwift
 @testable import Statera
 
 class StateraTests: XCTestCase {
+  
+  override func setUpWithError() throws {
+  }
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+  override func tearDownWithError() throws {
+  }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+  func testTransaction() throws {
+    let transaction = Transaction(id: "1", transactionDate: Date(), summary: "Test Summary", debit: 0.0, credit: 12.0)
+    
+    XCTAssertEqual(transaction.gst, 12.0 - 12.0/1.15, "Computed GST is wrong!")
+  }
+  
+  func testFetchTransactions() throws {
+    Statera.ApiService.shared.getTransactions()
+      .subscribe { event in
+        switch event {
+        case .next(let transactions):
+          XCTAssertEqual(transactions.count, 1, "Should only have one transaction")
+          XCTAssertEqual(transactions[0].id, "1", "Transaction ID should be \"1\"")
+          
+        case .error(let error):
+          // handle error here
+          ()
+        default:
+          ()
         }
+      }
+      .disposed(by: DisposeBag())
+  }
+
+  func testPerformanceExample() throws {
+    self.measure {
     }
+  }
 
 }

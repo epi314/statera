@@ -22,6 +22,8 @@
 		8F68C1502641581000DC970D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C14F2641581000DC970D /* Transaction.swift */; };
 		8F68C1622641661A00DC970D /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C1612641661A00DC970D /* TransactionCell.swift */; };
 		8F68C16B26416DB400DC970D /* TransactionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C16A26416DB400DC970D /* TransactionDetailsViewController.swift */; };
+		8F68C1732641EF2500DC970D /* TransactionDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C1722641EF2500DC970D /* TransactionDetailsPresenter.swift */; };
+		8F68C1782641F92F00DC970D /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C1772641F92F00DC970D /* String+Utilities.swift */; };
 		A2B16F913FA7EA102738B85A /* Pods_StateraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F928CC286F9DCEA94714FF79 /* Pods_StateraTests.framework */; };
 		C562E84A8A537DA5F4D640C5 /* Pods_Statera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */; };
 		ED3606ADC9D5EF35CB39C660 /* Pods_Statera_StateraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */; };
@@ -45,8 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0074510D1643A3CCFE33210E /* Pods-StateraTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateraTests.test.xcconfig"; path = "Target Support Files/Pods-StateraTests/Pods-StateraTests.test.xcconfig"; sourceTree = "<group>"; };
 		095804742FB2BCBE4833048D /* Pods-Statera-StateraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera-StateraUITests.release.xcconfig"; path = "Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0BE7AD66186957BB064265F6 /* Pods-Statera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera.debug.xcconfig"; path = "Target Support Files/Pods-Statera/Pods-Statera.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB77589684EB338E32BBFAA /* Pods-Statera.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera.test.xcconfig"; path = "Target Support Files/Pods-Statera/Pods-Statera.test.xcconfig"; sourceTree = "<group>"; };
 		4DA269B73C7A94B80B16650E /* Pods-Statera-StateraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera-StateraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F68C0CB26414C0A00DC970D /* Statera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Statera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F68C0CE26414C0A00DC970D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +73,10 @@
 		8F68C14F2641581000DC970D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		8F68C1612641661A00DC970D /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		8F68C16A26416DB400DC970D /* TransactionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsViewController.swift; sourceTree = "<group>"; };
+		8F68C1722641EF2500DC970D /* TransactionDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsPresenter.swift; sourceTree = "<group>"; };
+		8F68C1772641F92F00DC970D /* String+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
 		99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateraTests.debug.xcconfig"; path = "Target Support Files/Pods-StateraTests/Pods-StateraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E5C55EA5A4D0E69A0252D0C /* Pods-Statera-StateraUITests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera-StateraUITests.test.xcconfig"; path = "Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests.test.xcconfig"; sourceTree = "<group>"; };
 		A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera_StateraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0216C9EF2CBEA7D6768535D /* Pods-Statera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera.release.xcconfig"; path = "Target Support Files/Pods-Statera/Pods-Statera.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				8F68C10B26414EC600DC970D /* UIView+Alignments.swift */,
+				8F68C1772641F92F00DC970D /* String+Utilities.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				8F68C16A26416DB400DC970D /* TransactionDetailsViewController.swift */,
+				8F68C1722641EF2500DC970D /* TransactionDetailsPresenter.swift */,
 			);
 			path = TransactionDetails;
 			sourceTree = "<group>";
@@ -257,6 +266,9 @@
 				095804742FB2BCBE4833048D /* Pods-Statera-StateraUITests.release.xcconfig */,
 				99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */,
 				E3727E24F97816A58564A79C /* Pods-StateraTests.release.xcconfig */,
+				4AB77589684EB338E32BBFAA /* Pods-Statera.test.xcconfig */,
+				9E5C55EA5A4D0E69A0252D0C /* Pods-Statera-StateraUITests.test.xcconfig */,
+				0074510D1643A3CCFE33210E /* Pods-StateraTests.test.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -498,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F68C1782641F92F00DC970D /* String+Utilities.swift in Sources */,
 				8F68C10C26414EC600DC970D /* UIView+Alignments.swift in Sources */,
 				8F68C0CF26414C0A00DC970D /* AppDelegate.swift in Sources */,
 				8F68C11626414F7F00DC970D /* TransactionsListViewController.swift in Sources */,
@@ -506,6 +519,7 @@
 				8F68C11E26414FB700DC970D /* TransactionsListPresenter.swift in Sources */,
 				8F68C13E2641562C00DC970D /* Statera+ApiService.swift in Sources */,
 				8F68C1392641549B00DC970D /* Statera+Api.swift in Sources */,
+				8F68C1732641EF2500DC970D /* TransactionDetailsPresenter.swift in Sources */,
 				8F68C16B26416DB400DC970D /* TransactionDetailsViewController.swift in Sources */,
 				8F68C1622641661A00DC970D /* TransactionCell.swift in Sources */,
 				8F68C1502641581000DC970D /* Transaction.swift in Sources */,
@@ -793,6 +807,129 @@
 			};
 			name = Release;
 		};
+		8F68C1AF2642053D00DC970D /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Test;
+		};
+		8F68C1B02642053D00DC970D /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB77589684EB338E32BBFAA /* Pods-Statera.test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Statera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.Statera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG TESTING";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+		8F68C1B12642053D00DC970D /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0074510D1643A3CCFE33210E /* Pods-StateraTests.test.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StateraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.StateraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Statera.app/Statera";
+			};
+			name = Test;
+		};
+		8F68C1B22642053D00DC970D /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5C55EA5A4D0E69A0252D0C /* Pods-Statera-StateraUITests.test.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StateraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zapies.StateraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Statera;
+			};
+			name = Test;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -800,6 +937,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F68C0F326414C0C00DC970D /* Debug */,
+				8F68C1AF2642053D00DC970D /* Test */,
 				8F68C0F426414C0C00DC970D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -809,6 +947,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F68C0F626414C0C00DC970D /* Debug */,
+				8F68C1B02642053D00DC970D /* Test */,
 				8F68C0F726414C0C00DC970D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -818,6 +957,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F68C0F926414C0C00DC970D /* Debug */,
+				8F68C1B12642053D00DC970D /* Test */,
 				8F68C0FA26414C0C00DC970D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -827,6 +967,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F68C0FC26414C0C00DC970D /* Debug */,
+				8F68C1B22642053D00DC970D /* Test */,
 				8F68C0FD26414C0C00DC970D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
