@@ -17,7 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow()
     window?.makeKeyAndVisible()
     
-    window?.rootViewController = ViewController()
+    let controller = TransactionsListViewController()
+    TransactionsListPresenter.configure(view: controller)
+    
+    window?.rootViewController = UINavigationController(rootViewController: controller)
     
     return true
   }

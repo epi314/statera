@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8F68C0CF26414C0A00DC970D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0CE26414C0A00DC970D /* AppDelegate.swift */; };
-		8F68C0D126414C0A00DC970D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0D026414C0A00DC970D /* SceneDelegate.swift */; };
-		8F68C0D326414C0A00DC970D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0D226414C0A00DC970D /* ViewController.swift */; };
 		8F68C0D826414C0C00DC970D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F68C0D726414C0C00DC970D /* Assets.xcassets */; };
 		8F68C0DB26414C0C00DC970D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F68C0D926414C0C00DC970D /* LaunchScreen.storyboard */; };
 		8F68C0E626414C0C00DC970D /* StateraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0E526414C0C00DC970D /* StateraTests.swift */; };
 		8F68C0F126414C0C00DC970D /* StateraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0F026414C0C00DC970D /* StateraUITests.swift */; };
 		8F68C10C26414EC600DC970D /* UIView+Alignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C10B26414EC600DC970D /* UIView+Alignments.swift */; };
+		8F68C11626414F7F00DC970D /* TransactionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C11526414F7F00DC970D /* TransactionsListViewController.swift */; };
+		8F68C11E26414FB700DC970D /* TransactionsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C11D26414FB700DC970D /* TransactionsListPresenter.swift */; };
 		A2B16F913FA7EA102738B85A /* Pods_StateraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F928CC286F9DCEA94714FF79 /* Pods_StateraTests.framework */; };
 		C562E84A8A537DA5F4D640C5 /* Pods_Statera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */; };
 		ED3606ADC9D5EF35CB39C660 /* Pods_Statera_StateraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */; };
@@ -43,8 +43,6 @@
 		4DA269B73C7A94B80B16650E /* Pods-Statera-StateraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Statera-StateraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Statera-StateraUITests/Pods-Statera-StateraUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F68C0CB26414C0A00DC970D /* Statera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Statera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F68C0CE26414C0A00DC970D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F68C0D026414C0A00DC970D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F68C0D226414C0A00DC970D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F68C0D726414C0C00DC970D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F68C0DA26414C0C00DC970D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F68C0DC26414C0C00DC970D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +53,8 @@
 		8F68C0F026414C0C00DC970D /* StateraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateraUITests.swift; sourceTree = "<group>"; };
 		8F68C0F226414C0C00DC970D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F68C10B26414EC600DC970D /* UIView+Alignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Alignments.swift"; sourceTree = "<group>"; };
+		8F68C11526414F7F00DC970D /* TransactionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewController.swift; sourceTree = "<group>"; };
+		8F68C11D26414FB700DC970D /* TransactionsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListPresenter.swift; sourceTree = "<group>"; };
 		99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateraTests.debug.xcconfig"; path = "Target Support Files/Pods-StateraTests/Pods-StateraTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera_StateraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,10 +126,9 @@
 		8F68C0CD26414C0A00DC970D /* Statera */ = {
 			isa = PBXGroup;
 			children = (
+				8F68C11326414F2200DC970D /* Scenes */,
 				8F68C10A26414E9B00DC970D /* Extensions */,
 				8F68C0CE26414C0A00DC970D /* AppDelegate.swift */,
-				8F68C0D026414C0A00DC970D /* SceneDelegate.swift */,
-				8F68C0D226414C0A00DC970D /* ViewController.swift */,
 				8F68C0D726414C0C00DC970D /* Assets.xcassets */,
 				8F68C0D926414C0C00DC970D /* LaunchScreen.storyboard */,
 				8F68C0DC26414C0C00DC970D /* Info.plist */,
@@ -161,6 +160,23 @@
 				8F68C10B26414EC600DC970D /* UIView+Alignments.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8F68C11326414F2200DC970D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C11426414F2C00DC970D /* TransactionsList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8F68C11426414F2C00DC970D /* TransactionsList */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C11526414F7F00DC970D /* TransactionsListViewController.swift */,
+				8F68C11D26414FB700DC970D /* TransactionsListPresenter.swift */,
+			);
+			path = TransactionsList;
 			sourceTree = "<group>";
 		};
 		EAA949C616C7F3EC977A3078 /* Pods */ = {
@@ -378,9 +394,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F68C10C26414EC600DC970D /* UIView+Alignments.swift in Sources */,
-				8F68C0D326414C0A00DC970D /* ViewController.swift in Sources */,
 				8F68C0CF26414C0A00DC970D /* AppDelegate.swift in Sources */,
-				8F68C0D126414C0A00DC970D /* SceneDelegate.swift in Sources */,
+				8F68C11626414F7F00DC970D /* TransactionsListViewController.swift in Sources */,
+				8F68C11E26414FB700DC970D /* TransactionsListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
