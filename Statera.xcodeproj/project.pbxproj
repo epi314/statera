@@ -14,6 +14,7 @@
 		8F68C0DB26414C0C00DC970D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F68C0D926414C0C00DC970D /* LaunchScreen.storyboard */; };
 		8F68C0E626414C0C00DC970D /* StateraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0E526414C0C00DC970D /* StateraTests.swift */; };
 		8F68C0F126414C0C00DC970D /* StateraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C0F026414C0C00DC970D /* StateraUITests.swift */; };
+		8F68C10C26414EC600DC970D /* UIView+Alignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C10B26414EC600DC970D /* UIView+Alignments.swift */; };
 		A2B16F913FA7EA102738B85A /* Pods_StateraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F928CC286F9DCEA94714FF79 /* Pods_StateraTests.framework */; };
 		C562E84A8A537DA5F4D640C5 /* Pods_Statera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */; };
 		ED3606ADC9D5EF35CB39C660 /* Pods_Statera_StateraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */; };
@@ -53,6 +54,7 @@
 		8F68C0EC26414C0C00DC970D /* StateraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F68C0F026414C0C00DC970D /* StateraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateraUITests.swift; sourceTree = "<group>"; };
 		8F68C0F226414C0C00DC970D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F68C10B26414EC600DC970D /* UIView+Alignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Alignments.swift"; sourceTree = "<group>"; };
 		99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateraTests.debug.xcconfig"; path = "Target Support Files/Pods-StateraTests/Pods-StateraTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera_StateraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 		8F68C0CD26414C0A00DC970D /* Statera */ = {
 			isa = PBXGroup;
 			children = (
+				8F68C10A26414E9B00DC970D /* Extensions */,
 				8F68C0CE26414C0A00DC970D /* AppDelegate.swift */,
 				8F68C0D026414C0A00DC970D /* SceneDelegate.swift */,
 				8F68C0D226414C0A00DC970D /* ViewController.swift */,
@@ -150,6 +153,14 @@
 				8F68C0F226414C0C00DC970D /* Info.plist */,
 			);
 			path = StateraUITests;
+			sourceTree = "<group>";
+		};
+		8F68C10A26414E9B00DC970D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C10B26414EC600DC970D /* UIView+Alignments.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		EAA949C616C7F3EC977A3078 /* Pods */ = {
@@ -366,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F68C10C26414EC600DC970D /* UIView+Alignments.swift in Sources */,
 				8F68C0D326414C0A00DC970D /* ViewController.swift in Sources */,
 				8F68C0CF26414C0A00DC970D /* AppDelegate.swift in Sources */,
 				8F68C0D126414C0A00DC970D /* SceneDelegate.swift in Sources */,
