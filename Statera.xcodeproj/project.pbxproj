@@ -20,6 +20,7 @@
 		8F68C13E2641562C00DC970D /* Statera+ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C13D2641562C00DC970D /* Statera+ApiService.swift */; };
 		8F68C1472641575300DC970D /* DataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C1462641575300DC970D /* DataFormatter.swift */; };
 		8F68C1502641581000DC970D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C14F2641581000DC970D /* Transaction.swift */; };
+		8F68C1622641661A00DC970D /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68C1612641661A00DC970D /* TransactionCell.swift */; };
 		A2B16F913FA7EA102738B85A /* Pods_StateraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F928CC286F9DCEA94714FF79 /* Pods_StateraTests.framework */; };
 		C562E84A8A537DA5F4D640C5 /* Pods_Statera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */; };
 		ED3606ADC9D5EF35CB39C660 /* Pods_Statera_StateraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */; };
@@ -65,6 +66,7 @@
 		8F68C13D2641562C00DC970D /* Statera+ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Statera+ApiService.swift"; sourceTree = "<group>"; };
 		8F68C1462641575300DC970D /* DataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFormatter.swift; sourceTree = "<group>"; };
 		8F68C14F2641581000DC970D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		8F68C1612641661A00DC970D /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		99270B56778BB31B40E9F522 /* Pods-StateraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StateraTests.debug.xcconfig"; path = "Target Support Files/Pods-StateraTests/Pods-StateraTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A51A4BD30B3106DCB18D8ECF /* Pods_Statera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9E86A37893823526FEEACD /* Pods_Statera_StateraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Statera_StateraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +188,7 @@
 		8F68C11426414F2C00DC970D /* TransactionsList */ = {
 			isa = PBXGroup;
 			children = (
+				8F68C160264165E900DC970D /* Views */,
 				8F68C11526414F7F00DC970D /* TransactionsListViewController.swift */,
 				8F68C11D26414FB700DC970D /* TransactionsListPresenter.swift */,
 			);
@@ -224,6 +227,14 @@
 				8F68C14F2641581000DC970D /* Transaction.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8F68C160264165E900DC970D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F68C1612641661A00DC970D /* TransactionCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EAA949C616C7F3EC977A3078 /* Pods */ = {
@@ -484,6 +495,7 @@
 				8F68C11E26414FB700DC970D /* TransactionsListPresenter.swift in Sources */,
 				8F68C13E2641562C00DC970D /* Statera+ApiService.swift in Sources */,
 				8F68C1392641549B00DC970D /* Statera+Api.swift in Sources */,
+				8F68C1622641661A00DC970D /* TransactionCell.swift in Sources */,
 				8F68C1502641581000DC970D /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
